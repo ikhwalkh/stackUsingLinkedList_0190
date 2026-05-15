@@ -51,7 +51,7 @@ void pop()
     delete temp;
 }
 
-
+//void peek
 void peek()
 {
     if (isEmpty())

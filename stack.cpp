@@ -74,7 +74,7 @@ bool isEmpty()
 {
     return top == NULL;
 }
-
+};
 int main()
 {
     Stack stack;
@@ -113,6 +113,10 @@ int main()
             cout << "Invalid choice. Try again." << endl;
             break;
         }
+
+        cout << endl;
     }
+
+    return 0;
 }
-};
+

@@ -69,4 +69,9 @@ void peek()
         cout << endl;
     } // Return the value of the top node
 }
+
+bool isEmpty()
+{
+    return top == NULL;
+}
 };

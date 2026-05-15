@@ -13,3 +13,5 @@ class Node
         next = NULL;
     }
 };
+
+// stack class

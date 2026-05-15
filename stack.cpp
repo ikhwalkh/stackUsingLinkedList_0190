@@ -75,6 +75,8 @@ bool isEmpty()
     return top == NULL;
 }
 };
+
+//int main
 int main()
 {
     Stack stack;

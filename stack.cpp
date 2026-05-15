@@ -36,7 +36,7 @@ int push(int value)
     return value;
 }
 
-
+//void pop
 void pop()
 {
     Node *temp = top;

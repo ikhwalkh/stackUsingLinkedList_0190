@@ -39,7 +39,7 @@ int push(int value)
 //void pop
 void pop()
 {
-    Node *temp = top;
+    Node *temp = top; //Node pop
     if (isEmpty())
     {
         cout << "Stack is empty." << endl;

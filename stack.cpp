@@ -15,3 +15,20 @@ class Node
 };
 
 // stack class
+class Stack
+{
+    private:
+    Node *top;
+
+public:
+     Stack()
+{
+    top = NULL;
+}
+
+int push(int value)
+{
+    Node *newNode = new Node();
+    newNode->data = value;
+}
+}
